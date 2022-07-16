@@ -19,7 +19,7 @@
 
 ## 怎么食用
 ### 安装[chalk](https://www.npmjs.com/package/chalk) (版本低于且不是5)
-Chalk no longer supports the import of require() in nodejs after version 5, so you choose to use version 4 chalk. I will consider adapting chalks after version 5 in the future
+chalk在版本5后不再支持在nodejs中require()导入，所以选择使用版本4的chalk。未来将会考虑适配版本5以后的chalk
 ```
 npm install --save chalk@4
 ```
