@@ -1,4 +1,4 @@
-<p align=center><img src="https://github.com/pcl-aacin/chalk-log/raw/main/chalk-log-pro.png" width="320px" /></p>
+<p align=center><img src="chalk-log-pro.png" width="320px" /></p>
 <h1 align="center" name="chalk-log">ChalkLog</h1>
 <p align="center">
   <em>A friendly terminal log output library based on chalk encapsulation</em>
@@ -10,6 +10,8 @@
 ![license](https://img.shields.io/badge/LICENSE-GNU--3.0-brightgreen)
 ![Author](https://img.shields.io/badge/Author-pcl--aacin-green)
 </p>
+
+[中文](README.cn.md)
 
 ## Why to develop ChalkLog?
 
