@@ -115,3 +115,8 @@ new log("rgb(0,0,0).bold","text").add("infomations").output();
 ```
 
 It should be noted that if you use the shorthand method, you cannot use add() to continue adding content or output() to output after using output()
+
+## Writing attention
+1) You don't need to pay too much attention to the writing method when passing in the custom style of non chalk function (for example, when bold is required, "bold" and "bold()" are both OK)
+
+<p align="center">I am still learning nodejs. If the program reports errors, please feed back in issues. Thank you for using!</p>
