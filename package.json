@@ -1,0 +1,17 @@
+{
+	"name": "chalk-log",
+	"version": "0.0.1",
+	"description": "A friendly terminal log output library based on chalk encapsulation",
+	"repository": "https://github.com/pcl-aacin/chalk-log.git",
+	"main": "chalk-log.js",
+	"keywords": [
+		"chalk",
+		"log",
+		"console"
+	],
+	"dependencies": {
+		"chalk": "^4.1.2"
+	},
+	"author": "pcl-aacin",
+	"license": "GNU-3"
+}
