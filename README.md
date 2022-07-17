@@ -25,11 +25,19 @@ npm install --save chalk@4
 ```
 
 ### Require ChalkLog
-1) First download chalklog and put it into your nodejs project
+1) First download chalklog and put it into your nodejs project, or you can use npm
+
+```
+npm i chalk-log-plus
+```
 
 2) Then call chalklog
 ``` node
+// File
 const log = require("./chalk-log")
+
+// Module
+const log = require("chalk-log-plus")
 ```
 
 ### Code supported
