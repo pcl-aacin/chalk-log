@@ -11,8 +11,6 @@
 ![Author](https://img.shields.io/badge/Author-pcl--aacin-green)
 </p>
 
-[English](README.md)
-
 ## 为什么要开发这玩意儿
 
 因为我在给一个express项目添加日志输出的时候，发现如果直接使用chalk，会导致代码重复片段过多，并且有些多余。所以我就简简单单的封装了一个库。
