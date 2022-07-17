@@ -1,5 +1,5 @@
 {
-	"name": "chalk-log",
+	"name": "chalk-log-plus",
 	"version": "0.0.1",
 	"description": "A friendly terminal log output library based on chalk encapsulation",
 	"repository": "https://github.com/pcl-aacin/chalk-log.git",
