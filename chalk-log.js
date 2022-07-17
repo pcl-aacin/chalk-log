@@ -9,19 +9,17 @@ const preset_class = {
 
 const preset_color = {
 	host: chalk.rgb(204,255,51).bold,
-	error: chalk.rgb(255,80,0).bold
+	error: chalk.rgb(255,80,0).bold,
+	path: chalk.rgb(238,238,238).bold
 }
 
 const fixChalkStyleString = chalkStyleString => {
-	// 补充括号
 	chalkStyleString = chalkStyleString.replace(
 		eval('/(' + ([
 			"bold"
 		]).join("|") + ')(\.|$)/g'),
-		function(origin){
-			console.log(arguments)
-
-			return origin;
+		function(origin,style){
+			return style + "()";
 		}
 	);
 
