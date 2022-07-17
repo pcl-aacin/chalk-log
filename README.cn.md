@@ -25,11 +25,19 @@ npm install --save chalk@4
 ```
 
 ### 调用ChalkLog
-1) 首先下载该项目并置于你的项目中
+1) 首先下载该项目并置于你的项目中，或者NPM安装
+
+```
+npm i chalk-log-plus
+```
 
 2) 然后调用这个库
 ``` node
+// 文件
 const log = require("./chalk-log")
+
+// NPM模块
+const log = require("chalk-log-plus")
 ```
 
 ### 代码使用
